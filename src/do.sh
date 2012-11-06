@@ -1,0 +1,1 @@
+java -cp  $HBASE_HOME/hbase-0.90.2.jar:$HBASE_HOME/lib/*:$HADOOP_HOME/hadoop-core-*.jar:$HADOOP_HOME/lib/*:PreCreateTable.jar hbase.util.PreCreateTable $1 $2 $3 $4 $5 $6 $7
